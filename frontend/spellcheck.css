@@ -1,0 +1,60 @@
+#allContent {
+    margin: 1em auto;
+    width: 80%;
+}
+
+#output, #infoBox {
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 1px dashed lightgrey;
+    background: #FFFFCC;
+}
+
+#output span, #infoBox span {
+    margin: 0.3em;
+}
+
+#textToCheck {
+    margin: 0.3em;
+    height: 10em;
+    width: 25em;
+    background: lightcyan;
+}
+
+button {
+    margin: 0.3em;
+}
+
+form {
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 1px dashed lightgrey;
+    background: lightcyan;
+}
+
+ul, li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.errorWord {
+    display: inline-block;
+    border: 1px dashed darkred;
+    border-radius: 0.2em;
+    color: white;
+    background: red;
+    position: relative;
+}
+
+.spelling-suggestions {
+    top: 0.9em;
+    display: none;
+    position: absolute;
+    color: black;
+    border: 1px dashed black;
+    border-radius: 0.3em;
+    background: beige;
+    z-index: 1;
+    padding: 0.3em;
+}

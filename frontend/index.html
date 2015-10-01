@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Simple JavaScript spell checker</title>
+    <link rel="stylesheet" type="text/css" href="spellcheck.css">
+  </head>
+
+  <body>
+    <div id="allContent">
+    <form>
+      <textarea id="textToCheck"></textarea><br />
+      <button type="button" id="checkBtn">Check spelling</button>
+    </form>
+
+    <div id="output">
+    </div>
+
+    <div id="infoBox">
+      <ul>
+        <li>Word count - <span class="wordCount"></span>
+        <li>Correctly spelled - <span class="correctCount"></span>
+        <li>Misspelled - <span class="misspelledCount"></span>
+      </ul>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="spellcheck.js"></script>
+  </body>
+</html>
